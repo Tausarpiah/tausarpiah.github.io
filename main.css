@@ -10,3 +10,7 @@ a:hover    { background-color: #FFFF99; }
 a:active   { background-color: #FFFF99; color: red; }
 img        { border: 1px solid black }
 figcaption { margin-top: 0; padding-top: 0; font-style: italic; }
+
+.left      { float: left; }
+.clear     { clear: both; }
+p.subtitle { margin: 0.1em; padding: 0.1em; }

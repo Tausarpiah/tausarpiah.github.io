@@ -3,14 +3,22 @@
    no unique style is allowed for a page (government moment), all
    styles must be stacked on top of this 'main.css' css file      */
 
-body       { width: 80%; background-color: #E0E0E0; margin: 0 auto; }
-h0         { font-size: 2.65em; line-height: 2em; padding: 0; margin: 0 } /* custom title heading tag */
+html       { background-image: url(/images/bg.png);}
+body       { width: 80%; background-color: #E0E0E0; margin: 0 auto; padding: 10PX;}
+h0         { font-size: 2.65em; line-height: 1.25em; padding: 0; margin: 0 } /* custom title heading tag */
 a          { font: 1em normal 'Arial Narrow', Verdana; color: blue; }
 a:hover    { background-color: #FFFF99; }
 a:active   { background-color: #FFFF99; color: red; }
 img        { border: 1px solid black }
 figcaption { margin-top: 0; padding-top: 0; font-style: italic; }
-
+header     { background-color: darkred; padding-top: 4px; margin: -10px;}
+header h0  { color: #F2F2F2; }
 .left      { float: left; }
 .clear     { clear: both; }
-p.subtitle { margin: 0.1em; padding: 0.1em; }
+p.subtitle { margin: 0.1em; padding: 0.1em; font-size: 1.2em; color: #F2F2F2;}
+
+/* Top navigation bar */
+.topnav    { overflow: hidden; background-color: #333333; }
+.topnav a  { float: left; color: #F2F2F2; text-align: center; padding: 9px 16px; text-decoration: none; font-size: 18PX;}
+.topnav a:hover  { background-color: #194987; color: white; }
+.topnav a:active { background-color: #04AA6D; color: white; }

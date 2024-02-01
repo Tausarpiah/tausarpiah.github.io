@@ -1,6 +1,6 @@
 /* Special CSS file for: index.html */
 
-h0           { vertical-align: middle; line-height: 1EM; margin-left: 5PX; font-size: 45PT; }
-p.subtitle   { margin-top: 0; padding-top: 0; font-size: 1.25em; }
+h0           { vertical-align: middle; line-height: 1EM; margin-left: 5PX; font-size: 42PT; }
+p.subtitle   { margin-top: -10px; padding-top: 0; font-size: 1.25em; }
 header table { margin: 5px;}
 td#title     { height: 2.6em; }

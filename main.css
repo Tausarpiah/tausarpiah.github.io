@@ -16,6 +16,8 @@ header h0  { color: #F2F2F2; }
 .left      { float: left; }
 .clear     { clear: both; }
 p.subtitle { margin: 0.1em; padding: 0.1em; font-size: 1.2em; color: #F2F2F2;}
+table td   { padding: 5px 10px; }
+table th   { padding: 5px 10px; }
 /* Top navigation bar */
 .topnav    { overflow: hidden; background-color: #333333; }
 .topnav a  { float: left; color: #F2F2F2; text-align: center; padding: 9px 16px; text-decoration: none; font-size: 18PX;}

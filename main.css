@@ -23,6 +23,7 @@ video      { width: 80%; height: auto; margin: 25PX auto; }
 .topnav a  { float: left; color: #F2F2F2; text-align: center; padding: 9px 16px; text-decoration: none; font-size: 18PX;}
 .topnav a:hover  { background-color: #194987; color: white; }
 .topnav a:active { background-color: #04AA6D; color: white; }
+.complete { background-color: #04AA6D; }
 /* Drop-down menu */
 .dropbtn { background-color: #333333; color: white; padding: 9PX 16PX;font: 18PX 'Times New Roman';border: none; }
 .dropdown { float: left; overflow: hidden; }
@@ -30,7 +31,7 @@ video      { width: 80%; height: auto; margin: 25PX auto; }
 .dropdown-content a { color: black; padding: 9px 16px; text-decoration: none; display: block; }
 .dropdown-content a:hover {background-color: #ddd;}
 .dropdown:hover .dropdown-content {display: block;}
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {background-color: #3E8E41;}
 .dropdown .dropbtn { font-size: 18px;   border: none; outline: none; color: white; padding: 9px 16px; background-color: inherit; font-family: inherit; margin: 0; }
 .dropdown:hover .dropbtn { background-color: #194987; }
 .dropdown-content { display: none; position: absolute; background-color: #F2F2F2; min-width: 160px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index: 1;}
@@ -42,3 +43,9 @@ video      { width: 80%; height: auto; margin: 25PX auto; }
 #title h0  { vertical-align: middle; line-height: 1EM; margin-left: 5PX; font-size: 40PT; color: #F2F2F2; }
 .subject   { height: 100%; width: 100%; background: linear-gradient(90deg, rgba(255,190,0,1) 0%, rgba(226,226,226,1) 100) }
 .subject   { font: 500 30PT 'Verdana'; line-height: 100%; vertical-align: middle; color: white; }
+/* Section */
+section h1 { margin: 0.15EM 0; padding: 0.15EM 0; }
+section h2 { margin: 0.1EM 0; padding: 0.1EM 0; margin-top: 0.5em; font: 600 1.2EM'Verdana';}
+section h2 a { color: cadetblue; text-decoration: none; }
+section h2 a:hover { background-color: transparent; text-decoration: underline;}
+section li { margin-left: 30PX; }

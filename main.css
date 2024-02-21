@@ -19,6 +19,7 @@ table td   { padding: 5px 10px; }
 table th   { padding: 5px 10px; }
 video      { width: 80%; height: auto; margin: 20PX 25PX; }
 .v-heading { font: 500 1.4EM 'Times New Roman', serif; text-decoration: underline; margin: 0.1em auto; padding: 0.1EM auto; margin-bottom: -10PX; }
+h0.err     { font-family: 'Verdana', serif; }
 /* Top navigation bar */
 .topnav    { overflow: hidden; background-color: #333333; }
 .topnav a  { float: left; color: #F2F2F2; text-align: center; padding: 9px 16px; text-decoration: none; font-size: 18PX;}

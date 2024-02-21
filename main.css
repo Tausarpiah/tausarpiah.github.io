@@ -15,22 +15,42 @@ header     { background-color: darkred; padding-top: 4px; margin: -10px;}
 .left      { float: left; }
 .clear     { clear: both; }
 p.subtitle { margin: 0.1em; padding: 0.1em;  margin-top: -10px; padding-top: 0; font-size: 1.25em; color: #F2F2F2;}
-table td   { padding: 5px 10px; }
+table td   { padding: 5px 10px; text-align: top; }
 table th   { padding: 5px 10px; }
 video      { width: 80%; height: auto; margin: 20PX 25PX; }
 .v-heading { font: 500 1.4EM 'Times New Roman', serif; text-decoration: underline; margin: 0.1em auto; padding: 0.1EM auto; margin-bottom: -10PX; }
 h0.err     { font-family: 'Verdana', serif; margin-top: 30PX; }
 .tt        { position: relative; } /* Tool-tip*/
 .tt:hover::after { position: absolute; top: 1.2EM; left: 1EM; min-width: 150PX; border: 1px solid #000; background-color: #AAECFF; z-index: 1; padding: 8PX; }
-.tt#mail   { content: 'Click to directly e-mail'; }
+li         { margin-left: 30PX; }
+ul         { padding-left: 30PX;}
+.thumb video { width: 360PX; height: auto; margin: 15 20PX;}
+/* Heading styles */
+h-half, h1, h2, h3, h4, h5, h6 { font-family: Verdana, Tahoma, sans-serif; }
+h-half     { font-size: 2.2EM; margin: 0.3EM 0; margin-bottom: 0.3EM; font-weight: bold; }
+h1         { font-size: 1.9EM; margin: 0.25EM 0; }
+h2         { font-size: 1.6EM; margin: 0.17EM 0; }
+h3         { font-size: 1.4EM; margin: 0.12EM 0; }
+h4         { font-size: 1.2EM; margin: 0.1EM 0; font-weight: 400; font-style: italic; }
+h5         { font-size: 1.15EM; margin: 0.1EM 0; text-decoration: underline;}
+h6         { font-size: 1.12EM; margin: 0.1EM 0; }
 /* Top navigation bar */
-.topnav    { overflow: hidden; background-color: #333333; }
+.topnav    { overflow: hidden; background-color: #333333; margin-bottom: 1.25REM; }
 .topnav a  { float: left; color: #F2F2F2; text-align: center; padding: 9px 16px; text-decoration: none; font-size: 18PX;}
 .topnav a:hover  { background-color: #194987; color: white; }
 .topnav a:active { background-color: #04AA6D; color: white; }
 .complete { background-color: #04AA6D; }
+/* Left (side) navigation bar */
+th.left-nav  { font-weight: 400; text-align: left; }
+.left-nav    { height: 100%; width: 150PX; background-color: #CADEEE; top: 0; z-index: 1; margin-top: 10PX; padding: 0; }
+.left-nav ul { list-style: none; margin-top: 0; }
+.left-nav li { margin-left: -30PX; width: 150PX; }
+.left-nav a  { padding: 0.25EM; display: block; }
+.left-nav a:hover { background-color: #FFFF99; }
+.left-nav .title { background-color: #AAAA99; color: white; height: 1.5EM; width: 150PX; font-style: italic; text-align: center; text-shadow: -1px -1px 2px black; }
+#home        { color: green; font-style: italic; } #home:hover { background-color: #FFFF99; } #home:active { color: red; }
 /* Drop-down menu */
-.dropbtn { background-color: #333333; color: white; padding: 9PX 16PX;font: 18PX 'Times New Roman';border: none; }
+.dropbtn  { background-color: #333333; color: white; padding: 9PX 16PX;font: 18PX 'Times New Roman';border: none; }
 .dropdown { float: left; overflow: hidden; }
 .dropdown-content { display: none; position: absolute; background-color: #F2F2F2; min-width: 160px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index: 1; }
 .dropdown-content a { color: black; padding: 9px 16px; text-decoration: none; display: block; }
@@ -53,4 +73,3 @@ section h1 { margin: 0.15EM 0; padding: 0.15EM 0; }
 section h2 { margin: 0.1EM 0; padding: 0.1EM 0; margin-top: 0.5em; font: 600 1.2EM'Verdana';}
 section h2 a { color: cadetblue; text-decoration: none; }
 section h2 a:hover { background-color: transparent; text-decoration: underline;}
-section li { margin-left: 30PX; }

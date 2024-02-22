@@ -1,7 +1,6 @@
 /* main style for use across all pages
-   other pages with additional styles are stacked on top of this one
-   no unique style is allowed for a page (government moment), all
-   styles must be stacked on top of this 'main.css' css file      */
+   other pages with additional styles are stacked on top of this one.
+   all styles must be stacked on top of this 'main.css' css file.     */
 
 html       { background-image: url(/images/bg.png);}
 body       { width: 80%; background-color: #E0E0E0; margin: 0 auto; padding: 10PX;}
@@ -18,6 +17,7 @@ p.subtitle { margin: 0.1em; padding: 0.1em;  margin-top: -10px; padding-top: 0; 
 table td   { padding: 5px 10px; text-align: top; }
 table th   { padding: 5px 10px; }
 video      { width: 80%; height: auto; margin: 20PX 25PX; }
+iframe     { border: 0; width: fit-content; padding: 0; overflow: hidden;}
 .v-heading { font: 500 1.4EM 'Times New Roman', serif; text-decoration: underline; margin: 0.1em auto; padding: 0.1EM auto; margin-bottom: -10PX; }
 h0.err     { font-family: 'Verdana', serif; margin-top: 30PX; }
 .tt        { position: relative; } /* Tool-tip*/
@@ -25,6 +25,7 @@ h0.err     { font-family: 'Verdana', serif; margin-top: 30PX; }
 li         { margin-left: 30PX; }
 ul         { padding-left: 30PX;}
 .thumb video { width: 360PX; height: auto; margin: 15 20PX;}
+header iframe{ width: 100%; border: 0;}
 /* Heading styles */
 h-half, h1, h2, h3, h4, h5, h6 { font-family: Verdana, Tahoma, sans-serif; }
 h-half     { font-size: 2.2EM; margin: 0.3EM 0; margin-bottom: 0.3EM; font-weight: bold; }
@@ -73,3 +74,11 @@ section h1 { margin: 0.15EM 0; padding: 0.15EM 0; }
 section h2 { margin: 0.1EM 0; padding: 0.1EM 0; margin-top: 0.5em; font: 600 1.2EM'Verdana';}
 section h2 a { color: cadetblue; text-decoration: none; }
 section h2 a:hover { background-color: transparent; text-decoration: underline;}
+/* @ selectors */
+@media screen and (max-width: 500PX) {
+   body {width: 100%; font-size: large;}
+   h0#title {font-size: 25PT;}
+   .topnav a {font-size: 1.2EM;}
+   p {font-size: large;}
+   header img {width: 75PX;}
+}

@@ -25,7 +25,7 @@ h0.err     { font-family: 'Verdana', serif; margin-top: 30PX; }
 li         { margin-left: 30PX; }
 ul         { padding-left: 30PX;}
 .thumb video { width: 360PX; height: auto; margin: 15 20PX;}
-header iframe{ width: 100%; border: 0; z-index: 10;}
+header iframe{ width: 100%; border: 0; z-index: 10; top: 0; overflow: auto;}
 /* Heading styles */
 h-half, h1, h2, h3, h4, h5, h6 { font-family: Verdana, Tahoma, sans-serif; }
 h-half     { font-size: 2.2EM; margin: 0.3EM 0; margin-bottom: 0.3EM; font-weight: bold; }

@@ -25,16 +25,18 @@ h0.err     { font-family: 'Verdana', serif; margin-top: 30PX; }
 li         { margin-left: 30PX; }
 ul         { padding-left: 30PX;}
 .thumb video { width: 360PX; height: auto; margin: 15 20PX;}
-header iframe{ width: calc(100% + 20PX); z-index: 1; border: 0; position: relative; top: 0; height: 192px;}
+header iframe{ width: calc(100% + 20PX); z-index: 1; border: 0; position: relative; top: 0; height: 192px; padding: -8PX;}
+dl        { border: 1px solid #000; width: content; height: content; }
+dt        { font: 600 1.2EM 'Times New Roman'; margin-bottom: 0.8EM; }
 /* Heading styles */
 h-half, h1, h2, h3, h4, h5, h6 { font-family: Verdana, Tahoma, sans-serif; }
-h-half     { font-size: 2.2EM; margin: 0.3EM 0; margin-bottom: 0.3EM; font-weight: bold; }
-h1         { font-size: 1.9EM; margin: 0.25EM 0; }
-h2         { font-size: 1.6EM; margin: 0.17EM 0; }
-h3         { font-size: 1.4EM; margin: 0.12EM 0; }
-h4         { font-size: 1.2EM; margin: 0.1EM 0; font-weight: 400; font-style: italic; }
-h5         { font-size: 1.15EM; margin: 0.1EM 0; text-decoration: underline;}
-h6         { font-size: 1.12EM; margin: 0.1EM 0; }
+h-half     { font-size: 2.3EM; margin: 0.3EM 0; margin-bottom: 0.3EM; font-weight: bold; }
+h1         { font-size: 2.0EM; margin: 0.25EM 0; }
+h2         { font-size: 1.7EM; margin: 0.17EM 0; }
+h3         { font-size: 1.6EM; margin: 0.12EM 0; }
+h4         { font-size: 1.4EM; margin: 0.1EM 0; font-weight: 400; font-style: italic; }
+h5         { font-size: 1.25EM; margin: 0.1EM 0; text-decoration: underline;}
+h6         { font-size: 1.17EM; margin: 0.1EM 0; }
 /* Top navigation bar */
 .topnav    { overflow: hidden; background-color: #333333; margin-bottom: 1.25REM; }
 .topnav a  { float: left; color: #F2F2F2; text-align: center; padding: 9px 16px; text-decoration: none; font-size: 18PX;}

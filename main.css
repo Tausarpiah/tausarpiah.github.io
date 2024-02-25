@@ -10,7 +10,7 @@ a:hover    { background-color: #FFFF99; }
 a:active   { background-color: #FFFF99; color: red; }
 img        { border: 1px solid black }
 figcaption { margin-top: 0; padding-top: 0; font-style: italic; }
-header     { background-color: darkred; width: 100%; margin: -10PX 10PX 20PX -10PX}
+header     { background-color: darkred; width: 100%; margin: -10PX 10PX 0PX -10PX}
 .left      { float: left; }
 .clear     { clear: both; }
 p.subtitle { margin: 0.1em; padding: 0.1em;  margin-top: -10px; padding-top: 0; font-size: 1.25em; color: #F2F2F2;}
@@ -27,7 +27,7 @@ ul ul      { margin-top: 0.05EM; }
 li         { margin-left: 30PX; }
 strong     { font-size: 1.2rEM; }
 .thumb video { width: 360PX; height: auto; margin: 15 20PX;}
-header iframe{ width: calc(100% + 20PX); z-index: 1; border: 0; position: relative; top: 0; height: 192px; padding: -8PX;}
+header iframe{ width: calc(100% + 20PX); z-index: 1; border: 0; position: relative; top: 0; left: 0; height: inherit; padding: -8PX;}
 dl        { border: 1px solid #000; width: content; height: content; }
 dt        { font: 600 1.2EM 'Times New Roman'; margin-bottom: 0.8EM; }
 q         { margin: 1EM; font-style: italic; }

@@ -3,7 +3,7 @@
    all styles must be stacked on top of this 'main.css' css file.     */
 
 html       { background-image: url(/images/bg.png); padding-bottom: 0; margin-bottom: 0;}
-body       { width: 80%; background-color: #E0E0E0; margin: 0 auto; padding: 10PX;}
+body       { width: 80%; background-color: #E0E0E0; margin: 0 auto; padding: 10PX; font-size: 14PT;}
 h0         { font-size: 2.65em; line-height: 1.25em; padding: 0; margin: 0 } /* custom title heading tag */
 a          { font: 1em normal 'Arial Narrow', Verdana; color: blue; }
 a:hover    { background-color: #FFFF99; }
@@ -22,21 +22,25 @@ iframe     { border: 0; width: fit-content; padding: 0; overflow: hidden;}
 h0.err     { font-family: 'Verdana', serif; margin-top: 30PX; }
 .tt        { position: relative; } /* Tool-tip*/
 .tt:hover::after { position: absolute; top: 1.2EM; left: 1EM; min-width: 150PX; border: 1px solid #000; background-color: #AAECFF; z-index: 1; padding: 8PX; }
+ul         { padding-left: 30PX; margin-top: 0.5EM; }
+ul ul      { margin-top: 0.05EM; }
 li         { margin-left: 30PX; }
-ul         { padding-left: 30PX;}
+strong     { font-size: 1.2rEM; }
 .thumb video { width: 360PX; height: auto; margin: 15 20PX;}
 header iframe{ width: calc(100% + 20PX); z-index: 1; border: 0; position: relative; top: 0; height: 192px; padding: -8PX;}
 dl        { border: 1px solid #000; width: content; height: content; }
 dt        { font: 600 1.2EM 'Times New Roman'; margin-bottom: 0.8EM; }
+q         { margin: 1EM; font-style: italic; }
+.impt     { height: 300PX; width: 400PX; background-color: #E8E888; border: 1px solid #000; }
 /* Heading styles */
 h-half, h1, h2, h3, h4, h5, h6 { font-family: Verdana, Tahoma, sans-serif; }
 h-half     { font-size: 2.3EM; margin: 0.3EM 0; margin-bottom: 0.3EM; font-weight: bold; }
 h1         { font-size: 2.0EM; margin: 0.25EM 0; }
 h2         { font-size: 1.7EM; margin: 0.17EM 0; }
-h3         { font-size: 1.6EM; margin: 0.12EM 0; }
-h4         { font-size: 1.4EM; margin: 0.1EM 0; font-weight: 400; font-style: italic; }
-h5         { font-size: 1.25EM; margin: 0.1EM 0; text-decoration: underline;}
-h6         { font-size: 1.17EM; margin: 0.1EM 0; }
+h3         { font-size: 1.4EM; margin: 0.12EM 0; }
+h4         { font-size: 1.2EM; margin: 0.1EM 0; font-weight: 400; font-style: italic; }
+h5         { font-size: 1.1EM; margin: 0.1EM 0; text-decoration: underline;}
+h6         { font-size: 1.08EM; margin: 0.1EM 0; }
 /* Top navigation bar */
 .topnav    { overflow: hidden; background-color: #333333; margin-bottom: 1.25REM; }
 .topnav a  { float: left; color: #F2F2F2; text-align: center; padding: 9px 16px; text-decoration: none; font-size: 18PX;}

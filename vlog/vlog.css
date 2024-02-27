@@ -9,7 +9,7 @@
 }
 .left-nav {margin-top: -3PX;}
 .frame {margin: 0 -10PX; margin-top: 5PX;}
-iframe.left-nav {border: 0; width: 150PX; height: 600PX;}
+iframe.left-nav {border: 0; width: 150PX; height: 800PX; z-index: 0;}
 table th {padding: 0; margin: 0;}
 body {background-color: #E0E0E0;}
 video {width: 90%; margin: 15px auto;}

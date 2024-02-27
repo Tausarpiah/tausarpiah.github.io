@@ -70,7 +70,7 @@ th.left-nav  { font-weight: 400; text-align: left; }
 .dropdown-content a:hover {background-color: #DDDDDD; color: black; text-shadow: 0 -1px 0 grey;}
 .dropdown:hover .dropdown-content { display: block; }
 /* Title bar */
-.title     { line-height: 2.5EM; border-bottom: 2px solid grey; text-align: center; }
+.title     { line-height: 2.5EM; border-bottom: 2px solid grey; }
 #title     { height: 2.6em; }
 #title h0  { vertical-align: middle; line-height: 1EM; margin-left: 5PX; font-size: 40PT; color: #F2F2F2; }
 .subject   { height: 100%; width: 100%; background: linear-gradient(90deg, rgba(255,190,0,1) 0%, rgba(226,226,226,1) 100) }

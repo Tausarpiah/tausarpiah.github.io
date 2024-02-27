@@ -34,7 +34,7 @@ template.innerHTML = `
                     <a target="_parent"href="/sch/poa/index.html" class="complete">P.O.A.</a>
                 </div>
             </div>
-            <a target="_parent=" href="/wiki/index.html">Wiki</a>
+            <a target="_parent=" href="/vlog/index.html">Vlog</a>
             <a target="_parent=" href="/about.html">About</a>
         </div>
     </HEADER>

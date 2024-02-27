@@ -5,6 +5,7 @@ template.innerHTML = `
     <META charset="UTF-8">
     <META lang="en-GB">
     <META name="viewport" content="width=device-width, initial-scale=1">
+    <META name="author" content="Gary">
     <LINK rel="stylesheet" href="/main.css">
     <LINK rel="icon" rel="images/x-icon" href="/favicon.ico">
     <!-- Actual stuff -->
@@ -17,7 +18,7 @@ template.innerHTML = `
             <td id="title"><h0>The Holy Tau Sar Piah Realm</h0></td>
             </tr>
             <tr>
-            <td><p class="subtitle">The Online Non-Cooking Repository</p></td>
+            <td class="sub-vlog">Gary's Vlog</td>
             </tr>
         </table>
         <div class="topnav">

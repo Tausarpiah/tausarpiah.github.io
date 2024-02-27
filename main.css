@@ -11,7 +11,7 @@ a:hover    { background-color: #FFFF99; }
 a:active   { background-color: #FFFF99; color: red; }
 img        { border: 1px solid black }
 figcaption { margin-top: 0; padding-top: 0; font-style: italic; }
-header     { background-color: darkred; width: 100%; margin: -10PX 10PX 0PX -10PX}
+header     { background-color: darkred; width: auto; margin: -10PX; }
 .left      { float: left; }
 .clear     { clear: both; }
 p.subtitle { margin: 0.1em; padding: 0.1em;  margin-top: -10px; padding-top: 0; font-size: 1.25em; color: #F2F2F2;}
@@ -28,10 +28,9 @@ ul ul      { margin-top: 0.05EM; }
 li         { margin-left: 30PX; }
 strong     { font-size: 1.2rEM; }
 .thumb video { width: 360PX; height: auto; margin: 15 20PX;}
-header iframe{ width: calc(100% + 20PX); z-index: 1; border: 0; position: relative; top: 0; left: 0; height: inherit; padding: -8PX;}
 dl        { border: 1px solid #000; width: content; height: content; }
 dt        { font: 600 1.2EM 'Times New Roman'; margin-bottom: 0.8EM; }
-q         { margin: 0.7EM; padding-left: 30PX; padding: 96PX 45PX; background-image: url(images/q.png); height: 200PX; line-height: 200PX; border: 1px solid #000; vertical-align: middle; }
+q         { margin: 0.7EM; border: 1px solid black; font-size: 18PT; }
 /* Heading styles */
 h-half, h1, h2, h3, h4, h5, h6 { font-family: Verdana, Tahoma, sans-serif; }
 h-half     { font-size: 2.3EM; margin: 0.3EM 0; margin-bottom: 0.3EM; font-weight: bold; }
@@ -71,6 +70,7 @@ th.left-nav  { font-weight: 400; text-align: left; }
 .dropdown-content a:hover {background-color: #DDDDDD; color: black; text-shadow: 0 -1px 0 grey;}
 .dropdown:hover .dropdown-content { display: block; }
 /* Title bar */
+.title     { line-height: 2.5EM; border-bottom: 2px solid grey; text-align: center; }
 #title     { height: 2.6em; }
 #title h0  { vertical-align: middle; line-height: 1EM; margin-left: 5PX; font-size: 40PT; color: #F2F2F2; }
 .subject   { height: 100%; width: 100%; background: linear-gradient(90deg, rgba(255,190,0,1) 0%, rgba(226,226,226,1) 100) }

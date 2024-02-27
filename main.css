@@ -5,6 +5,7 @@
 html       { background-image: url(/images/bg.png); padding-bottom: 0; margin-bottom: 0;}
 body       { width: 80%; background-color: #E0E0E0; margin: 0 auto; padding: 10PX; font-size: 14PT;}
 h0         { font-size: 2.65em; line-height: 1.25em; padding: 0; margin: 0 } /* custom title heading tag */
+p          { word-wrap: break-word; }
 a          { font: 1em normal 'Arial Narrow', Verdana; color: blue; }
 a:hover    { background-color: #FFFF99; }
 a:active   { background-color: #FFFF99; color: red; }
@@ -30,8 +31,7 @@ strong     { font-size: 1.2rEM; }
 header iframe{ width: calc(100% + 20PX); z-index: 1; border: 0; position: relative; top: 0; left: 0; height: inherit; padding: -8PX;}
 dl        { border: 1px solid #000; width: content; height: content; }
 dt        { font: 600 1.2EM 'Times New Roman'; margin-bottom: 0.8EM; }
-q         { margin: 1EM; font-style: italic; }
-.impt     { height: 300PX; width: 400PX; background-color: #E8E888; border: 1px solid #000; }
+q         { margin: 0.7EM; padding-left: 30PX; padding: 96PX 45PX; background-image: url(images/q.png); height: 200PX; line-height: 200PX; border: 1px solid #000; vertical-align: middle; }
 /* Heading styles */
 h-half, h1, h2, h3, h4, h5, h6 { font-family: Verdana, Tahoma, sans-serif; }
 h-half     { font-size: 2.3EM; margin: 0.3EM 0; margin-bottom: 0.3EM; font-weight: bold; }
@@ -60,7 +60,7 @@ th.left-nav  { font-weight: 400; text-align: left; }
 .dropbtn  { background-color: #333333; color: white; padding: 9PX 16PX;font: 18PX 'Times New Roman';border: none; }
 .dropdown { float: left; overflow: hidden; }
 .dropdown-content { display: none; position: absolute; background-color: #F2F2F2; min-width: 160px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index: 1; }
-.dropdown-content a { color: black; padding: 9px 16px; text-decoration: none; display: block; }
+.dropdown-content a { color: black; padding: 9px 16px; text-decoration: none; display: block; z-index:2; }
 .dropdown-content a:hover {background-color: #ddd;}
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropbtn {background-color: #3E8E41;}
@@ -80,6 +80,12 @@ section h1 { margin: 0.15EM 0; padding: 0.15EM 0; }
 section h2 { margin: 0.1EM 0; padding: 0.1EM 0; margin-top: 0.5em; font: 600 1.2EM'Verdana';}
 section h2 a { color: cadetblue; text-decoration: none; }
 section h2 a:hover { background-color: transparent; text-decoration: underline;}
+/* Images and boxes */
+.impt     { height: 300PX; width: 400PX; background-color: #E8E888; border: 1px solid #000; padding: 10PX; }
+.box      { padding: 10PX; border: 1px solid #000; width: 100%; }
+.left     { float: left; overflow: auto; } .right { float: right; overflow: auto; } .clear { clear: both; }
+.box>.left{ margin: 0 10PX; }
+.bd-less  { border: 0; } .nopad { padding: 0; } .hidden { overflow: hidden; }
 /* @ selectors */
 @media screen and (max-width: 500PX) {
    body {width: 100%; font-size: large;}

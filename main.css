@@ -53,13 +53,16 @@ th.left-nav  { font-weight: 400; text-align: left; }
 .left-nav ul { list-style: none; margin-top: 0; }
 .left-nav li { margin-left: -30PX; width: 150PX; }
 .left-nav a  { padding: 0.25EM; display: block; }
-.left-nav a:hover { background-color: #FFFF99; }
+.left-nav a:hover { background-color: 
+   #FFFF99; }
 .left-nav .title  { background-color: #AAAA99; color: white; height: 1.5EM; width: 150PX; font-style: italic; text-align: center; text-shadow: -1px -1px 2px black; }
 #home        { color: green; font-style: italic; } #home:hover { background-color: #FFFF99; } #home:active { color: red; }
 /* Footer */
-footer a   { padding: 20PX; margin: 3PX 8PX; border: 3PX groove red; background-color: #FFFF99; font-size: 1.2EM; text-align: center; }
-footer a:hover  { border: black; background-color: orange; }
-footer a:active { border: #194987; background-color: #AAAAAA; }
+footer a   { float: left; }
+footer div { float: left; width: auto; }
+footer a   { padding: 20PX; margin: 3PX 8PX; border: 3PX groove red; background-color: #FFFF99; font-size: 0.9EM; text-align: center; }
+footer a:hover  { border: 3PX groove #000000; background-color: orange; }
+footer a:active { border: 3PX groove #194987; background-color: #AAAAAA; }
 /* Drop-down menu */
 .dropbtn  { background-color: #333333; color: white; padding: 9PX 16PX;font: 18PX 'Times New Roman';border: none; }
 .dropdown { float: left; overflow: hidden; }

@@ -59,7 +59,8 @@ th.left-nav  { font-weight: 400; text-align: left; }
 #home        { color: green; font-style: italic; } #home:hover { background-color: #FFFF99; } #home:active { color: red; }
 /* Footer */
 footer a   { float: left; }
-footer div { float: left; width: auto; overflow: hidden; color: black; }
+footer div { float: left; width: auto; height: auto; overflow: hidden; color: black; }
+footer p   { margin: 0.5EM; }
 footer a   { padding: 10PX; margin: 3PX 8PX; border: 3PX groove red; background-color: #FFFF99; font-size: 0.9EM; text-align: center; }
 footer a:hover  { border: 3PX groove #000000; background-color: orange; }
 footer a:active { border: 3PX groove #194987; background-color: #AAAAAA; }

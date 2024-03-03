@@ -14,8 +14,6 @@ template.innerHTML = `
         <a href="#top">Back to top</a>
         <a href="/index.html">Main Page</a>
         <div class="impt">
-            <h1>Rechliches Impressum!!!</h1>
-            <p>JZ 2024. The vast majority of images are made by me. Credit is given where necessary.</p>
             <p>No cookies/biscuits/scones/waffles collected. I'm not MrBeast.</p>
         </div>
     </FOOTER>

@@ -8,6 +8,7 @@ template.innerHTML = `
     <LINK rel="icon" rel="images/x-icon" href="/favicon.ico">
     <STYLE>
         DIV.IMPT { width: 100% }
+    </STYLE>
     <!-- Actual stuff -->
     <FOOTER>
         <a href="#top">Back to top</a>

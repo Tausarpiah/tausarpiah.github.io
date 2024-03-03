@@ -6,6 +6,8 @@ template.innerHTML = `
     <META name="viewport" content="width=device-width, initial-scale=1">
     <LINK rel="stylesheet" href="/main.css">
     <LINK rel="icon" rel="images/x-icon" href="/favicon.ico">
+    <STYLE>
+        DIV.IMPT { width: 100% }
     <!-- Actual stuff -->
     <FOOTER>
         <a href="#top">Back to top</a>

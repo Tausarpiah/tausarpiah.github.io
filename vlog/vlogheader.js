@@ -37,7 +37,7 @@ template.innerHTML = `
             </div>
             <a target="_parent" href="/wiki/index.html">Wiki</a>
             <a target="_parent" href="/vlog/index.html">Gary's Vlog</a>
-            <a target="_parent" href="/about.html">About</a>
+            <a target="_parent" href="/maps/index.html">Maps</a>
         </div>
     </HEADER>
     <!-- End of 'Actual stuff' -->

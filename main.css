@@ -16,7 +16,7 @@ footer     { background-color: #454545; color: white; width: auto; margin-top: 1
 .left      { float: left; }
 .clear     { clear: both; }
 p.subtitle { margin: 0.1em; padding: 0.1em;  margin-top: -10px; padding-top: 0; font-size: 1.25em; color: #F2F2F2;}
-table td   { padding: 5px 10px; text-align: top; }
+table td   { padding: 5px 10px; text-align: top; font-size: 16PX; }
 table th   { padding: 5px 10px; }
 video      { width: 80%; height: auto; margin: 20PX 25PX; }
 iframe     { border: 0; width: fit-content; padding: 0; overflow: hidden;}
@@ -53,8 +53,7 @@ th.left-nav  { font-weight: 400; text-align: left; }
 .left-nav ul { list-style: none; margin-top: 0; }
 .left-nav li { margin-left: -30PX; width: 150PX; }
 .left-nav a  { padding: 0.25EM; display: block; }
-.left-nav a:hover { background-color: 
-   #FFFF99; }
+.left-nav a:hover { background-color: #FFFF99; }
 .left-nav .title  { background-color: #AAAA99; color: white; height: 1.5EM; width: 150PX; font-style: italic; text-align: center; text-shadow: -1px -1px 2px black; }
 #home        { color: green; font-style: italic; } #home:hover { background-color: #FFFF99; } #home:active { color: red; }
 /* Footer */
@@ -79,7 +78,7 @@ footer a:active { border: 3PX groove #194987; background-color: #AAAAAA; }
 .dropdown-content a:hover {background-color: #DDDDDD; color: black; text-shadow: 0 -1px 0 grey;}
 .dropdown:hover .dropdown-content { display: block; }
 /* Title bar */
-.title     { font-size: 30PT; padding: -12PX 0; border-bottom: 2px solid grey; }
+.title     { display: block; font-size: 30PT; padding: 10PX 0 3PX 0; border-bottom: 2px solid grey; width: 100%; }
 #title     { height: 2.6em; }
 #title h0  { vertical-align: middle; line-height: 1EM; margin-left: 5PX; font-size: 40PT; color: #F2F2F2; }
 .subject   { height: 100%; width: 100%; background: linear-gradient(90deg, rgba(255,190,0,1) 0%, rgba(226,226,226,1) 100) }
@@ -95,6 +94,9 @@ section h2 a:hover { background-color: transparent; text-decoration: underline;}
 .left     { float: left; overflow: auto; } .right { float: right; overflow: auto; } .clear { clear: both; }
 .box>.left{ margin: 0 10PX; }
 .bd-less  { border: 0; } .nopad { padding: 0; } .hidden { overflow: hidden; }
+.toc      { display: inline-block; width: auto; height: auto; border: 1PX solid black; width: 33%; }
+.toc h3   { display: inline-block; width: 100%; background-color: burlywood; text-align: center; margin: 0; }
+.toc-cont { padding: 10PX; font-size: 16PX /* 12PT */; } /*table of contents' content*/
 /* @ selectors */
 @media screen and (max-width: 500PX) {
    body {width: 100%; font-size: large;}

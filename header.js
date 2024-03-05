@@ -25,18 +25,17 @@ template.innerHTML = `
             <div class="dropdown">
                 <button class="dropbtn">Academica</button>
                 <div class="dropdown-content">
-                    <a target="_parent"href="/sch/math/e-maths.html">E Maths</a>
-                    <a target="_parent"href="/sch/math/a-maths.html">A Maths</a>
-                    <a target="_parent"href="/sch/chem/index.html" class="complete">Chemistry</a>
-                    <a target="_parent"href="/sch/bio/index.html" class="complete">Biology</a>
-                    <a target="_parent"href="/sch/hist/index.html" class="complete">History</a>
-                    <a target="_parent"href="/sch/geog/index.html">Geography</a>
-                    <a target="_parent"href="/sch/poa/index.html" class="complete">P.O.A.</a>
+                    <a target="_parent" href="/sch/math/e-maths.html">E Maths</a>
+                    <a target="_parent" href="/sch/math/a-maths.html">A Maths</a>
+                    <a target="_parent" href="/sch/chem/index.html" class="complete">Chemistry</a>
+                    <a target="_parent" href="/sch/bio/index.html" class="complete">Biology</a>
+                    <a target="_parent" href="/sch/hist/index.html" class="complete">History</a>
+                    <a target="_parent" href="/sch/geog/index.html">Geography</a>
+                    <a target="_parent" href="/sch/poa/index.html" class="complete">P.O.A.</a>
                 </div>
             </div>
-            <a target="_parent=" href="/vlog/index.html">Vlog</a>
-            <a target="_parent=" href="/about.html">About</a>
-            <a href="/maps/index.html">Maps</a>
+            <a target="_parent" href="/vlog/index.html">Vlog</a>
+            <a target="_parent" href="/maps/index.html">Maps</a>
         </div>
     </HEADER>
     <!-- End of 'Actual stuff' -->

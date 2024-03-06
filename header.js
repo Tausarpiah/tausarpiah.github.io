@@ -34,8 +34,15 @@ template.innerHTML = `
                     <a target="_parent" href="/sch/poa/index.html" class="complete">P.O.A.</a>
                 </div>
             </div>
-            <a target="_parent" href="/vlog/index.html">Vlog</a>
-            <a target="_parent" href="/maps/index.html">Maps</a>
+            <div class="dropdown">
+                <button class="dropbtn">Miscellany</button>
+                <div class="dropdown-content">
+                    <a target="_parent" href="/wiki/index.html">Wiki</a>
+                    <a target="_parent" href="/vlog/index.html">Gary's Vlog</a>
+                    <a target="_parent" href="/maps/index.html">Maps</a>
+                    <a target="_parent" href="https://www.fairprice.com.sg/product/fairprice-premium-fine-salt-box-500g-11150178" class='salt'>Free salt!<
+                </div>
+            </div>
         </div>
     </HEADER>
     <!-- End of 'Actual stuff' -->

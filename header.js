@@ -40,7 +40,7 @@ template.innerHTML = `
                     <a target="_parent" href="/wiki/index.html">Wiki</a>
                     <a target="_parent" href="/vlog/index.html">Gary's Vlog</a>
                     <a target="_parent" href="/maps/index.html">Maps</a>
-                    <a target="_parent" href="https://www.fairprice.com.sg/product/fairprice-premium-fine-salt-box-500g-11150178" class='salt'>Free salt!<
+                    <a target="_parent" href="https://www.fairprice.com.sg/product/fairprice-premium-fine-salt-box-500g-11150178" class='salt'>Free salt!</a>
                 </div>
             </div>
         </div>

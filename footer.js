@@ -13,9 +13,9 @@ template.innerHTML = `
     <FOOTER>
         <a href="#top">Back to top</a>
         <a href="/index.html">Main Page</a>
-        <div class="impt">
-            <p>No cookies/biscuits/scones/waffles collected. I'm not MrBeast.</p>
-        </div>
+		<a href="/copy-right.html">Imprint</a>
+        <a href="/vlog/index.html">Vlogs</a>
+		<a href="/sch/index.html">Academic content</a>
     </FOOTER>
 `
 document.body.appendChild(template.content);

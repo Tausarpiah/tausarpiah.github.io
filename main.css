@@ -90,7 +90,7 @@ section h2 { margin: 0.1EM 0; padding: 0.1EM 0; margin-top: 0.5em; font: 600 1.2
 section h2 a { color: cadetblue; text-decoration: none; }
 section h2 a:hover { background-color: transparent; text-decoration: underline;}
 /* Images and boxes */
-.impt      { height: 300PX; width: 400PX; background-color: #E8E888; border: 1px solid #000; padding: 10PX; }
+.impt      { height: fit-content; width: 400PX; background-color: #E8E888; border: 1px solid #000; padding: 10PX; }
 .box       { padding: 10PX; border: 1px solid #000; width: 100%; }
 .left      { float: left; overflow: auto; } .right { float: right; overflow: auto; } .clear { clear: both; }
 .box>.left { margin: 0 10PX; }

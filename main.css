@@ -1,9 +1,9 @@
 /* main style for use across all pages
    other pages with additional styles are stacked on top of this one.
    all styles must be stacked on top of this 'main.css' css file.     */
-
+/* General */
 html       { background-image: url(/images/bg.png); padding-bottom: 0; margin-bottom: 0;}
-body       { width: 80%; background-color: #E0E0E0; margin: 0 auto; padding: 10PX; font-size: 14PT;}
+body       { width: 80%; background-color: #E0E0E0; margin: 0 auto; padding: 10PX; font-size: 12PT; text-decoration-thickness: 1PX;}
 h0         { font-size: 2.65em; line-height: 1.25em; padding: 0; margin: 0 } /* custom title heading tag */
 p          { word-wrap: break-word; }
 a          { font: 1em normal 'Arial Narrow', Verdana; color: blue; }
@@ -41,6 +41,8 @@ h3         { font-size: 1.4EM; margin: 0.12EM 0; }
 h4         { font-size: 1.2EM; margin: 0.1EM 0; font-weight: 400; font-style: italic; }
 h5         { font-size: 1.1EM; margin: 0.1EM 0; text-decoration: underline;}
 h6         { font-size: 1.08EM; margin: 0.1EM 0; }
+.u         { text-decoration: underline; text-decoration-thickness: 1PX;}
+.b         { font-weight: 600; }
 /* Top navigation bar */
 .topnav    { overflow: hidden; background-color: #333333; margin-bottom: 1.25REM; }
 .topnav a  { float: left; color: #F2F2F2; text-align: center; padding: 9px 16px; text-decoration: none; font-size: 18PX;}
